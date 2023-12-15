@@ -1,0 +1,11 @@
+#features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 30px 65px 30px 70px;
+}
+
+h2 {
+    text-align: center;
+}

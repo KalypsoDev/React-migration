@@ -1,0 +1,154 @@
+
+#description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#description p {
+    color: #828282;
+    font-size: 20px;
+}
+
+#description__organize {
+    display: flex;
+    padding: 120px 65px 130px 70px;
+}
+
+#organize__left {
+    display: flex;
+    align-items: center;
+}
+
+#description__organize img {
+    max-width: 100%;
+    margin: auto;
+}
+
+#organize__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#organize__right h2 {
+    text-align: left;
+}
+
+#organize__right p {
+    margin: 45px 50px 20px 0;
+
+}
+
+/*Medidas responsive mobile
+
+#home__description {    
+    margin: 0 110px 90px 150px; ???
+}
+
+*/
+
+#organize__right ul {
+    margin-bottom: 20px;
+    margin-left: 15px; /*Esto está cutre*/
+}
+
+#organize__right li {
+    list-style: square;
+    color: #828282;
+    font-size: 20px;
+}
+
+#description__schedule {
+    display: flex;
+    justify-content: center;
+    background-color: #e8eff6;
+    padding: 130px 30px 125px 70px;
+}
+
+#schedule__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+#schedule__rows {
+    display: flex;
+    column-gap: 10px;
+}
+
+#schedule__row1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+#schedule__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 10px;
+}
+
+#schedule__buttons button {
+    height: 45px;
+    width: 150px;
+    font-size: medium;
+    border: 1px solid #f7fafd;
+}
+
+#schedule__buttons button:not(#schedule__button){
+    color:#777777;
+    background-color: #f7fafd;
+}
+
+#schedule__button {
+    background-color: #9a67e7;
+    color: #fcfbfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+/*No sé por qué no me coge el margen de .fa*/
+
+#schedule__buttons .fa {
+    margin-right: 10px;
+}
+
+#schedule__left li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: #828282;
+    font-size: 20px;
+}
+
+
+.fa-square-check {
+    color: #49d2a9;
+    margin-right: 10px;
+}
+
+.button--white {
+    color: #383939; /*Revisar esto*/
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 2px solid  #3a3a3a;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#schedule__right {
+    display: flex;
+    max-width: 100%;
+}
+
+
+#schedule__right img {
+    max-width: 70%;
+    margin: auto;
+}
