@@ -154,21 +154,10 @@ export function HomeView() {
                     <div id="screens__testimonials">
                         <h2>User Testimonials</h2>
                         <div className="testimonials__container">
-                            <div className="testimonials__cards">
-                                <div className="testimonials__score">
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                </div>
-                                <div className="testimonials__opinion">
-                                    <p>I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills.</p>
-                                </div>
-                                <div className="testimonials__user"> 
-                                    <p><b>Rick Jones - Designer</b></p>
-                                </div>
-                            </div>
+                            <TestimonialsCards 
+                                opinion="I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills."
+                                user="Rick Jones - Designer"
+                            />
                             <div className="testimonials__cards">
                                 <div className="testimonials__score">
                                     <i className="fa-solid fa-star"></i> 
