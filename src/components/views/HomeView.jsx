@@ -1,3 +1,5 @@
+import { TestimonialsCards } from "../cards/TestimonialsCards";
+
 export function HomeView() {
     return (
         <>
