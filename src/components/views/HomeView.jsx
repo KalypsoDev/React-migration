@@ -1,4 +1,5 @@
 import { TestimonialsCards } from "../cards/TestimonialsCards";
+import testimonials from "../../contents/testimonials";
 
 export function HomeView() {
     return (
@@ -154,41 +155,14 @@ export function HomeView() {
                     <div id="screens__testimonials">
                         <h2>User Testimonials</h2>
                         <div className="testimonials__container">
-                            <TestimonialsCards 
-                                opinion="I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills."
-                                user="Rick Jones - Designer"
-                            />
-                            <div className="testimonials__cards">
-                                <div className="testimonials__score">
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                </div>
-                                <div className="testimonials__opinion">
-                                    <p>After trying out a large number of personal coaching apps I decided to give Sync a try and what a wonderful surprise it was.</p>
-                                </div>
-                                <div className="testimonials__user"> 
-                                    <p><b>Lynda Marquez - Developer</b></p>
-                                </div>
-                            </div>
-                            <div className="testimonials__cards">
-                                <div className="testimonials__score">
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                </div>
-                                <div className="testimonials__opinion">
-                                    <p>Never dreamed I could learn so fast how to focus on my personal goals and improve my life to levels I never thought possible.</p>
-                                </div>
-                                <div className="testimonials__user"> 
-                                    <p><b>Jay Frisco - Marketer</b></p>
-                                </div>
-                            </div>
-
+                            {
+                                testimonials.slice(0, 3).map(({ opinion, user }) => (
+                                    <TestimonialsCards 
+                                        opinion={opinion}
+                                        user={user}
+                                    />
+                                ))
+                            }
                         </div>
                         <div id="screens__sponsors">
                             <img src="/assets/img/customer-logo-1.png" alt="Primester"/>
@@ -198,52 +172,14 @@ export function HomeView() {
                             <img src="/assets/img/customer-logo-5.png" alt="Amplifier"/>
                         </div>
                         <div className="testimonials__container">
-                            <div className="testimonials__cards">
-                                <div className="testimonials__score">
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                </div>
-                                <div className="testimonials__opinion">
-                                    <p>I got so much value from using Sync in my daily life for which I am very grateful and would recommend it to everybody</p>
-                                </div>
-                                <div className="testimonials__user"> 
-                                    <p><b>Frank Gibson - Manager</b></p>
-                                </div>
-                            </div>
-                            <div className="testimonials__cards">
-                                <div className="testimonials__score">
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                </div>
-                                <div className="testimonials__opinion">
-                                    <p>If you have great goals but can't figure out a way to keep focused then you should definitely give Sync a try and see the results</p>
-                                </div>
-                                <div className="testimonials__user"> 
-                                    <p><b>Rita Longmile - Designer
-                                    </b></p>
-                                </div>
-                            </div>
-                            <div className="testimonials__cards">
-                                <div className="testimonials__score">
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                    <i className="fa-solid fa-star"></i> 
-                                </div>
-                                <div className="testimonials__opinion">
-                                    <p>I've been looking for a great organizer app for such a long time but now I am really happy that I found Sync. It's beeen working great</p>
-                                </div>
-                                <div className="testimonials__user"> 
-                                    <p><b>Jones Smith - Developer</b></p>
-                                </div>
-                            </div>
+                        {
+                                testimonials.slice(3).map(({ opinion, user }) => (
+                                    <TestimonialsCards 
+                                        opinion={opinion}
+                                        user={user}
+                                    />
+                                ))
+                            }
                         </div>
                     </div>
                     <div id="screens__statistics">
