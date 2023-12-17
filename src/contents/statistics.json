@@ -1,0 +1,31 @@
+[
+    {
+        "icon": "icon__users",
+        "value": 231,
+        "label": "Happy Users"
+    },
+
+    {
+        "icon": "icon__code",
+        "value": 385,
+        "label": "Issues Solved"
+    },
+
+    {
+        "icon": "icon__gear",
+        "value": 159,
+        "label": "Good Reviews"
+    },
+
+    {
+        "icon": "icon__comments",
+        "value": 127,
+        "label": "Case Studies"
+    },
+
+    {
+        "icon": "icon__rocket",
+        "value": 211,
+        "label": "Orders Received"
+    }
+]
