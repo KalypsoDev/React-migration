@@ -200,11 +200,11 @@ export function HomeView() {
 
                         </div>
                         <div id="screens__sponsors">
-                            <img src="./src/assets/img/customer-logo-1.png" alt="Primester"/>
-                            <img src="./src/assets/img/customer-logo-2.png" alt="GreenApp"/>
-                            <img src="./src/assets/img/customer-logo-3.png" alt="Voltmeter"/>
-                            <img src="./src/assets/img/customer-logo-4.png" alt="Keyrunner"/>
-                            <img src="./src/assets/img/customer-logo-5.png" alt="Amplifier"/>
+                            <img src="/assets/img/customer-logo-1.png" alt="Primester"/>
+                            <img src="/assets/img/customer-logo-2.png" alt="GreenApp"/>
+                            <img src="/assets/img/customer-logo-3.png" alt="Voltmeter"/>
+                            <img src="/assets/img/customer-logo-4.png" alt="Keyrunner"/>
+                            <img src="/assets/img/customer-logo-5.png" alt="Amplifier"/>
                         </div>
                         <div className="testimonials__container">
                             <div className="testimonials__cards">
