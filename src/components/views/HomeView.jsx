@@ -1,7 +1,26 @@
 import { TestimonialsCards } from "../cards/TestimonialsCards";
 import testimonials from "../../contents/testimonials";
+import { useState } from "react";
+import { useEffect } from "react";
+
+export function useTestimonials () {
+    const [testimonials, setTestimonials] = useState([]);
+
+    useEffect(() => {
+        fetch('AQUI LA URL')
+            .then(request => request.json())
+            .then(json => {
+                setTestimonials(json.data.slice(0,10))
+            })
+    }, [setTestimonials]);
+
+    return testimonials;
+}
 
 export function HomeView() {
+
+    const testimonials = useTestimonials();
+
     return (
         <>
             <header>
