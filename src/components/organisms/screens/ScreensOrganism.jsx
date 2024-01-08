@@ -1,3 +1,6 @@
+import { TestimonialsCards } from "../../atoms/cards/TestimonialsCards";
+import testimonials from "../../../contents/testimonials.json";
+
 export default function ScreensOrganism() {
   return (
     <section id="screens">

@@ -1,5 +1,3 @@
-import { TestimonialsCards } from "../cards/TestimonialsCards";
-import testimonials from "../../contents/testimonials";
 import HeaderOrganism from "../organisms/header/HeaderOrganism";
 import HomeOrganism from "../organisms/home/HomeOrganism";
 import DescriptionOrganism from "../organisms/description/DescriptionOrganism";
