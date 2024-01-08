@@ -3,6 +3,7 @@ import testimonials from "../../contents/testimonials";
 import HeaderOrganism from "../organisms/header/HeaderOrganism";
 import HomeOrganism from "../organisms/home/HomeOrganism";
 import DescriptionOrganism from "../organisms/description/DescriptionOrganism";
+import FeaturesOrganism from "../organisms/features/FeaturesOrganism";
 
 export function HomeView() {
 
@@ -12,14 +13,7 @@ export function HomeView() {
             <main>
                 <HomeOrganism/>
                 <DescriptionOrganism/>
-                <section id="features">
-                    <h2>Special Features</h2>
-                    <p className="text--full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
-                    <p className="text--full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
-                    <p className="text--full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
-                    <p className="text--full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
-                    <p className="text--full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
-                </section>
+                <FeaturesOrganism/>
                 <section id="screens">
                     <div id="screens__testimonials">
                         <h2>User Testimonials</h2>
