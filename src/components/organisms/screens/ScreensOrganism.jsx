@@ -1,4 +1,4 @@
-import { TestimonialsCards } from "../../atoms/cards/TestimonialsCards";
+import { TestimonialsCards } from "../../atoms/testimonialsCards/TestimonialsCards";
 import testimonials from "../../../contents/testimonials.json";
 
 export default function ScreensOrganism() {
