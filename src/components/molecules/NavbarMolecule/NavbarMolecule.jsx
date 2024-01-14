@@ -1,4 +1,7 @@
+import { useRef } from "react";
+
 export function NavbarMolecule() {
+  const ref = useRef();
   return (
     <>
       <div id="header__sections">
@@ -34,7 +37,7 @@ export function NavbarMolecule() {
           <button id="header__button">Download</button>
         </a>
       </div>
-      <button>
+      <button ref={ref}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"
@@ -48,7 +51,7 @@ export function NavbarMolecule() {
         </svg>
 
         <svg
-          data-onclick="this.parentElement.blur()"
+          onClick={() => ref.current.blur()}
           xmlns="http://www.w3.org/2000/svg"
           width="32"
           height="32"
