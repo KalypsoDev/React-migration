@@ -1,4 +1,5 @@
 import { TestimonialCardAtom } from "../../atoms/testimonialCardAtom/TestimonialCardAtom";
+import { StatisticsCardMolecule } from "../../molecules/statisticsCardMolecule/StatisticsCardMolecule";
 import testimonials from "../../../contents/testimonials.json";
 
 export default function ScreensOrganism() {
@@ -25,43 +26,7 @@ export default function ScreensOrganism() {
         </div>
       </div>
       <div id="screens__statistics">
-        <div id="statistics__cards">
-          <div className="card--colored card--grey">
-            <div id="icon__users">
-              <i className="fa-solid fa-users fa-beat fa-2xl"></i>
-            </div>
-            <h2>231</h2>
-            <p>Happy Users</p>
-          </div>
-          <div className="card--colored card--grey">
-            <div id="icon__code">
-              <i className="fa-solid fa-code fa-beat fa-2xl"></i>
-            </div>
-            <h2>385</h2>
-            <p>Issues Solved</p>
-          </div>
-          <div className="card--colored card--grey">
-            <div id="icon__gear">
-              <i className="fa-solid fa-gear fa-beat fa-2xl"></i>
-            </div>
-            <h2>159</h2>
-            <p>Good Reviews</p>
-          </div>
-          <div className="card--colored card--grey">
-            <div id="icon__comments">
-              <i className="fa-solid fa-comments fa-beat fa-2xl"></i>
-            </div>
-            <h2>127</h2>
-            <p>Case Studies</p>
-          </div>
-          <div className="card--colored card--grey">
-            <div id="icon__rocket">
-              <i className="fa-solid fa-rocket fa-beat fa-2xl"></i>
-            </div>
-            <h2>211</h2>
-            <p>Orders Received</p>
-          </div>
-        </div>
+        <StatisticsCardMolecule/>
       </div>
       <div id="screens__">
         <div id="low__icons--float">
