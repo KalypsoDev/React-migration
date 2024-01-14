@@ -1,3 +1,5 @@
+import { HomeCardMolecule } from "../../molecules/homeCardMolecule/HomeCardMolecule";
+
 export default function HomeOrganism() {
   return (
     <section id="home">
@@ -55,38 +57,7 @@ export default function HomeOrganism() {
       <div id="header__mobile">
         <img src="/assets/img/header-iphone.png" alt="Iphone with Sync" />
       </div>
-      <div id="home__cards">
-        <div className="card--colored">
-          <div className="card--padding" id="icon__users--background">
-            <i className="fa-solid fa-users fa-beat fa-2xl"></i>
-          </div>
-          <h4>Identify Goals</h4>
-        </div>
-        <div className="card--colored">
-          <div className="card--padding" id="icon__code--background">
-            <i className="fa-solid fa-code fa-beat fa-2xl"></i>
-          </div>
-          <h4>Situation Analysis</h4>
-        </div>
-        <div className="card--colored">
-          <div className="card--padding" id="icon__gear--background">
-            <i className="fa-solid fa-gear fa-beat fa-2xl"></i>
-          </div>
-          <h4>Tasks Settings</h4>
-        </div>
-        <div className="card--colored">
-          <div className="card--padding" id="icon__comments--background">
-            <i className="fa-solid fa-comments fa-beat fa-2xl"></i>
-          </div>
-          <h4>Social Interaction</h4>
-        </div>
-        <div className="card--colored">
-          <div className="card--padding" id="icon__rocket--background">
-            <i className="fa-solid fa-rocket fa-beat fa-2xl"></i>
-          </div>
-          <h4>Get Things Done</h4>
-        </div>
-      </div>
+      <HomeCardMolecule/>
     </section>
   );
 }
