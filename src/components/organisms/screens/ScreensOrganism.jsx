@@ -1,29 +1,11 @@
-import { TestimonialCardAtom } from "../../atoms/testimonialCardAtom/TestimonialCardAtom";
+import { TestimonialsMolecule } from "../../molecules/testimonialsMolecule/TestimonialsMolecule";
 import { StatisticsCardMolecule } from "../../molecules/statisticsCardMolecule/StatisticsCardMolecule";
-import testimonials from "../../../contents/testimonials.json";
 
 export default function ScreensOrganism() {
   return (
     <section id="screens">
       <div id="screens__testimonials">
-        <h2>User Testimonials</h2>
-        <div className="testimonials__container">
-          {testimonials.slice(0, 3).map(({ opinion, user }) => (
-            <TestimonialCardAtom opinion={opinion} user={user} key={user}/>
-          ))}
-        </div>
-        <div id="screens__sponsors">
-          <img src="/assets/img/customer-logo-1.png" alt="Primester" />
-          <img src="/assets/img/customer-logo-2.png" alt="GreenApp" />
-          <img src="/assets/img/customer-logo-3.png" alt="Voltmeter" />
-          <img src="/assets/img/customer-logo-4.png" alt="Keyrunner" />
-          <img src="/assets/img/customer-logo-5.png" alt="Amplifier" />
-        </div>
-        <div className="testimonials__container">
-          {testimonials.slice(3).map(({ opinion, user }) => (
-            <TestimonialCardAtom opinion={opinion} user={user} key={user}/>
-          ))}
-        </div>
+        <TestimonialsMolecule/>
       </div>
       <div id="screens__statistics">
         <StatisticsCardMolecule/>
