@@ -1,4 +1,4 @@
-import { TestimonialsCards } from "../../atoms/testimonialsCards/TestimonialsCards";
+import { TestimonialCardAtom } from "../../atoms/testimonialCardAtom/TestimonialCardAtom";
 import testimonials from "../../../contents/testimonials.json";
 
 export default function ScreensOrganism() {
@@ -8,7 +8,7 @@ export default function ScreensOrganism() {
         <h2>User Testimonials</h2>
         <div className="testimonials__container">
           {testimonials.slice(0, 3).map(({ opinion, user }) => (
-            <TestimonialsCards opinion={opinion} user={user} key={user}/>
+            <TestimonialCardAtom opinion={opinion} user={user} key={user}/>
           ))}
         </div>
         <div id="screens__sponsors">
@@ -20,7 +20,7 @@ export default function ScreensOrganism() {
         </div>
         <div className="testimonials__container">
           {testimonials.slice(3).map(({ opinion, user }) => (
-            <TestimonialsCards opinion={opinion} user={user} key={user}/>
+            <TestimonialCardAtom opinion={opinion} user={user} key={user}/>
           ))}
         </div>
       </div>

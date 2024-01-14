@@ -1,4 +1,4 @@
-export function TestimonialsCards({opinion, user}) {
+export function TestimonialCardAtom({opinion, user}) {
   return (
     <div className="testimonials__cards">
         <div className="testimonials__score">
