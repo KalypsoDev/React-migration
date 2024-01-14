@@ -1,12 +1,12 @@
 import { NavbarMolecule } from "../../molecules/NavbarMolecule/NavbarMolecule";
 
-export default function HeaderOrganism() {
+export default function HeaderOrganism({ currentSection }) {
   return (
     <header>
       <div id="header__logo">
         <img className="logo" src="/assets/img/logo.svg" alt="Sync's logo" />
       </div>
-      <NavbarMolecule/>
+      <NavbarMolecule currentSection={currentSection} />
     </header>
   );
 }

@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-export function NavbarMolecule() {
+export function NavbarMolecule({ currentSection }) {
   const ref = useRef();
   return (
     <>
@@ -8,13 +8,13 @@ export function NavbarMolecule() {
         <nav id="header__navbar">
           <ul>
             <li>
-              <a href="#description">Description</a>
+              <a href="#description" className={currentSection === 'description' ? 'active' : ''}>Description</a>
             </li>
             <li>
-              <a href="#features">Features</a>
+              <a href="#features" className={currentSection === 'features' ? 'active' : ''}>Features</a>
             </li>
             <li>
-              <a href="#screens">Screens</a>
+              <a href="#screens" className={currentSection === 'screens' ? 'active' : ''}>Screens</a>
             </li>
             <li id="navbar__extra">
               <a href="#extra">Extra</a>
