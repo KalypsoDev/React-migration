@@ -1,4 +1,5 @@
 import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
+import { SquaredButton } from "../../atoms/buttons/squaredButton/SquaredButton";
 
 export default function DescriptionOrganism() {
   return (
@@ -32,24 +33,22 @@ export default function DescriptionOrganism() {
           <div id="schedule__buttons">
             <div id="schedule__rows">
               <div id="schedule__row1">
-                <button id="schedule__button">
-                  <i
-                    className="fa-regular fa-clock"
-                    aria-hidden="true"
-                    id="schedule__clock"
-                  ></i>
-                  <b>Schedule</b>
-                </button>
-                <button>
-                  <i className="fa fa-list-ul" aria-hidden="true"></i>
-                  <b>Tracking</b>
-                </button>
+                <SquaredButton
+                  idButton="schedule__button"
+                  icon="fa-regular fa-clock"
+                  id="schedule__clock"
+                  textButton="Schedule"
+                />
+                <SquaredButton
+                  icon="fa fa-list-ul"
+                  textButton="Tracking"
+                />
               </div>
               <div id="schedule__row2">
-                <button>
-                  <i className="fa fa-calendar-alt" aria-hidden="true"></i>
-                  <b>Organize</b>
-                </button>
+                <SquaredButton
+                  icon="fa fa-calendar-alt"
+                  textButton="Organize"
+                />
               </div>
             </div>
           </div>
