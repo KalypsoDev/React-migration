@@ -1,4 +1,4 @@
-export function GenericButton({href, classButton, idButton, icon, textButton}) {
+export function RoundedButton({href, classButton, idButton, icon, textButton}) {
   return (
     <a href={href}>
       <button id={idButton} className={classButton}>

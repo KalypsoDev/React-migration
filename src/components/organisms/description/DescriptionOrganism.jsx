@@ -1,4 +1,4 @@
-import { GenericButton } from "../../atoms/buttons/genericButton/GenericButton";
+import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
 
 export default function DescriptionOrganism() {
   return (
@@ -19,7 +19,7 @@ export default function DescriptionOrganism() {
             <li>Begin monitoring your day to day routine with Sync app</li>
             <li>See the improved results in no more than a couple of weeks</li>
           </ul>
-          <GenericButton
+          <RoundedButton
             href="https://femcoders.factoriaf5.org/"
             classButton="button--red"
             textButton="Lightbox"
@@ -75,12 +75,12 @@ export default function DescriptionOrganism() {
             </li>
           </ul>
           <div className="terms__buttons">
-            <GenericButton
+            <RoundedButton
               href="https://femcoders.factoriaf5.org/"
               classButton="button--red"
               textButton="Terms"
             />
-            <GenericButton
+            <RoundedButton
               href="https://www.somosf5.org/"
               classButton="button--white"
               textButton="Privacy"

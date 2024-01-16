@@ -1,6 +1,6 @@
 import { TestimonialsMolecule } from "../../molecules/testimonialsMolecule/TestimonialsMolecule";
 import { StatisticsCardMolecule } from "../../molecules/statisticsCardMolecule/StatisticsCardMolecule";
-import { GenericButton } from "../../atoms/buttons/genericButton/GenericButton";
+import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
 
 export default function ScreensOrganism() {
   return (
@@ -51,13 +51,13 @@ export default function ScreensOrganism() {
             and get a grip on your personal development
           </p>
           <div className="download__buttons">
-            <GenericButton
+            <RoundedButton
               href="https://femcoders.factoriaf5.org/"
               classButton="button--red"
               icon="fa-brands fa-apple"
               textButton="Download"
             />
-            <GenericButton
+            <RoundedButton
               href="https://www.somosf5.org/"
               classButton="button--red"
               icon="fa-brands fa-google-play"

@@ -1,5 +1,5 @@
 import { HomeCardMolecule } from "../../molecules/homeCardMolecule/HomeCardMolecule";
-import { GenericButton } from "../../atoms/buttons/genericButton/GenericButton";
+import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
 
 export default function HomeOrganism() {
   return (
@@ -25,13 +25,13 @@ export default function HomeOrganism() {
             social connections to help you stay focused and get organized
           </p>
           <div className="download__buttons">
-            <GenericButton
+            <RoundedButton
               href="https://femcoders.factoriaf5.org/"
               classButton="button--red"
               icon="fa-brands fa-apple"
               textButton="Download"
             />
-            <GenericButton
+            <RoundedButton
               href="https://www.somosf5.org/"
               classButton="button--red"
               icon="fa-brands fa-google-play"
