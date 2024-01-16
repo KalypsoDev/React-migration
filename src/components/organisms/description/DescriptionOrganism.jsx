@@ -1,3 +1,5 @@
+import { GenericButton } from "../../atoms/buttons/genericButton/GenericButton";
+
 export default function DescriptionOrganism() {
   return (
     <section id="description">
@@ -17,9 +19,11 @@ export default function DescriptionOrganism() {
             <li>Begin monitoring your day to day routine with Sync app</li>
             <li>See the improved results in no more than a couple of weeks</li>
           </ul>
-          <a href="https://femcoders.factoriaf5.org/">
-            <button className="button--red">LIGHTBOX</button>
-          </a>
+          <GenericButton
+            href="https://femcoders.factoriaf5.org/"
+            classButton="button--red"
+            textButton="Lightbox"
+          />
         </div>
       </div>
 
@@ -71,12 +75,16 @@ export default function DescriptionOrganism() {
             </li>
           </ul>
           <div className="terms__buttons">
-            <a href="https://femcoders.factoriaf5.org/">
-              <button className="button--red">TERMS</button>
-            </a>
-            <a href="https://www.somosf5.org/">
-              <button className="button--white">PRIVACY</button>
-            </a>
+            <GenericButton
+              href="https://femcoders.factoriaf5.org/"
+              classButton="button--red"
+              textButton="Terms"
+            />
+            <GenericButton
+              href="https://www.somosf5.org/"
+              classButton="button--white"
+              textButton="Privacy"
+            />
           </div>
         </div>
         <div id="schedule__right">
