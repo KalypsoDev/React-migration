@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { GenericButton } from "../../atoms/buttons/genericButton/GenericButton";
 
 export function NavbarMolecule({ currentSection }) {
   const ref = useRef();
@@ -33,9 +34,11 @@ export function NavbarMolecule({ currentSection }) {
             </li>
           </ul>
         </nav>
-        <a href="https://factoriaf5.org/">
-          <button id="header__button">Download</button>
-        </a>
+        <GenericButton
+          href="https://factoriaf5.org/"
+          idButton="header__button"
+          textButton="Download"
+        />
       </div>
       <button ref={ref}>
         <svg
