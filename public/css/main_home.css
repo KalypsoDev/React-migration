@@ -136,28 +136,7 @@ Usar clases en vez de ids si se repiten*/
     flex-wrap: wrap;
 }
 
-.card--colored {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
-}
 
-.card--padding {
-    height: 120px;
-    width: 120px;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.card--padding i {
-    background-color: transparent;
-}
 
 #icon__users--background {
     background-color: #ebe7fa;

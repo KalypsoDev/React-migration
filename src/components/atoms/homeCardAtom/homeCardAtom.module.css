@@ -1,0 +1,13 @@
+.card--padding {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card--padding i {
+    background-color: transparent;
+}
