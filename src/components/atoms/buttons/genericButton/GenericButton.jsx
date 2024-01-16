@@ -1,8 +1,11 @@
-export function GenericButton({href, classButton, icon, textButton}) {
+export function GenericButton({href, classButton, idButton, icon, textButton}) {
   return (
     <a href={href}>
-      <button className={classButton}>
-        <i className={icon}></i>{textButton}
+      <button id={idButton} className={classButton}>
+        {
+            icon !== undefined && <i className={icon}></i>
+        }
+        {textButton}
       </button>
     </a>
   );
