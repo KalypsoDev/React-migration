@@ -1,4 +1,4 @@
-import { StatisticsCardAtom } from "../../atoms/statisticsCardAtom/StatisticsCardAtom";
+import { StatisticsCardAtom } from "../../atoms/cards/statisticsCardAtom/StatisticsCardAtom";
 import statistics from "../../../contents/statistics.json";
 import "./statisticsCardMolecule.module.css";
 

@@ -1,4 +1,4 @@
-import { TestimonialCardAtom } from "../../atoms/testimonialCardAtom/TestimonialCardAtom";
+import { TestimonialCardAtom } from "../../atoms/cards/testimonialCardAtom/TestimonialCardAtom";
 import testimonials from "../../../contents/testimonials.json";
 
 const screensSponsorsAlt = ["Primester", "GreenApp", "Voltmeter", "Keyrunner", "Amplifier"];
