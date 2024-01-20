@@ -44,18 +44,10 @@ footer p {
     margin-right: 10px;
 }
 
-.contact__cards {
-    display: flex;
-}
-
-
-/*Esto es innecesario
 #links__socialmedia {
     display: flex;
-    column-gap: 10px;
-    justify-content: center;
+    column-gap: 5px;
 }
-*/
 
 #links__socialmedia i {
     height: 35px;
