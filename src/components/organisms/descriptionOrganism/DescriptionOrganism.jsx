@@ -1,6 +1,8 @@
 import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
 import { SquaredButton } from "../../atoms/buttons/squaredButton/SquaredButton";
 
+import "./descriptionOrganism.css"
+
 export default function DescriptionOrganism() {
   return (
     <section id="description">
