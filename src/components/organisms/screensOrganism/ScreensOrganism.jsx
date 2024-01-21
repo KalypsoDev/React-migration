@@ -2,6 +2,8 @@ import { TestimonialsMolecule } from "../../molecules/testimonialsMolecule/Testi
 import { StatisticsCardMolecule } from "../../molecules/statisticsCardMolecule/StatisticsCardMolecule";
 import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
 
+import "./screensOrganism.css"
+
 export default function ScreensOrganism() {
   return (
     <section id="screens">
