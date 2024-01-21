@@ -1,4 +1,3 @@
-
 header {
     position: sticky; /*Cuidado que en otras secciones el margin top cambia; creo que son 40px*/
     top: -15px;
