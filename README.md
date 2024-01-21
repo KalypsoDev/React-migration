@@ -1,8 +1,35 @@
-# React + Vite
+# Personal project: Sync migration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Main goal
 
-Currently, two official plugins are available:
+🎯 Migrate all the html and css files from the previous replica project ([repo](https://github.com/Kalypso89/replica_web) and [deployed website](https://replica-website-sync.pages.dev/)) to another website built with React framework.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack
+
+1. [Vite](https://vitejs.dev/)
+2. [React framework](https://es.react.dev/)
+
+## Deployment
+
+🚀 This project has been deployed on Vercel: [sync_migration](https://sync-migration.vercel.app/)
+
+## Installation Guide
+
+▶ These are the steps that you have to follow to start exploring the project:
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Kalypso89/Sync-migration
+    ```
+
+2. Run these commands:
+
+    ```bash
+    npm i
+    npm run dev
+    ```
+
+3. Click on the url local host provided by Vite to access the webpage.
+
+4. Now you are ready to start editing this project on your favourite IDE.
