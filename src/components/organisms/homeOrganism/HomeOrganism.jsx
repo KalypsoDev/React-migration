@@ -1,6 +1,8 @@
 import { HomeCardMolecule } from "../../molecules/homeCardMolecule/HomeCardMolecule";
 import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
 
+import "./homeOrganism.css"
+
 export default function HomeOrganism() {
   return (
     <section id="home">
