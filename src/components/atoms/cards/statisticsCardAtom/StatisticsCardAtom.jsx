@@ -1,5 +1,3 @@
-import "./statisticsCardAtom.module.css"
-
 export function StatisticsCardAtom({ idIcon, icon, value, label }) {
   return (
     <div className="card--colored card--grey">

@@ -1,5 +1,3 @@
-import "./homeCardAtom.module.css"
-
 export function HomeCardAtom({ idIcon, icon, titleIcon }) {
   return (
     <div className="card--colored">

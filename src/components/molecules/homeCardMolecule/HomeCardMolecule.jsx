@@ -1,6 +1,5 @@
 import { HomeCardAtom } from "../../atoms/cards/homeCardAtom/HomeCardAtom";
 import statistics from "../../../contents/statistics.json";
-import "./homeCardMolecule.module.css";
 
 export function HomeCardMolecule() {
   return (

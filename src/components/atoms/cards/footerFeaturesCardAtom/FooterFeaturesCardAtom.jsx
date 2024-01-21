@@ -1,5 +1,3 @@
-import "./footerFeaturesCardAtom.css"
-
 export function FooterFeaturesCardAtom({ title, items }) {
   return (
     <div className="links__cards">
