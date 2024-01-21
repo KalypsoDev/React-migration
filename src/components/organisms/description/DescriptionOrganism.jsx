@@ -31,8 +31,8 @@ export default function DescriptionOrganism() {
       <div id="description__schedule">
         <div id="schedule__left">
           <div id="schedule__buttons">
-            <div id="schedule__rows">
-              <div id="schedule__row1">
+            <div id="schedule__columns">
+              <div id="schedule__column1">
                 <SquaredButton
                   idButton="schedule__button"
                   icon="fa-regular fa-clock"
@@ -44,7 +44,7 @@ export default function DescriptionOrganism() {
                   textButton="Tracking"
                 />
               </div>
-              <div id="schedule__row2">
+              <div id="schedule__column2">
                 <SquaredButton
                   icon="fa fa-calendar-alt"
                   textButton="Organize"

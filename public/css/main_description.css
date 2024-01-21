@@ -74,12 +74,12 @@
     row-gap: 20px;
 }
 
-#schedule__rows {
+#schedule__columns {
     display: flex;
     column-gap: 10px;
 }
 
-#schedule__row1 {
+#schedule__column1 {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
