@@ -129,6 +129,12 @@
   font-weight: bold;
 }
 
+.terms__buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
 #schedule__right {
   display: flex;
   max-width: 100%;
