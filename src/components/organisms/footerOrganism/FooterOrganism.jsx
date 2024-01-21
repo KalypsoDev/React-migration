@@ -1,5 +1,7 @@
 import { FooterLinksCardMolecule } from "../../molecules/footerLinksCardMolecule/FooterLinksCardMolecule";
 
+import "./footerOrganism.css"
+
 export default function FooterOrganism() {
   return (
     <footer>
