@@ -1,7 +1,7 @@
 header {
-    position: sticky; /*Cuidado que en otras secciones el margin top cambia; creo que son 40px*/
+    position: sticky; 
     top: -15px;
-    padding: 40px 70px 15px; /*Revisado padding bottom*/
+    padding: 40px 70px 15px; 
     display: flex;
     justify-content: space-between;
     background-color: #f7fafd;
@@ -18,7 +18,7 @@ header > button {
 
 #header__sections {
     text-transform: uppercase;
-    font-size: 90p; /*Revisar esto*/
+    font-size: 90p; 
     color: #202020;
     display: flex;
     align-items: baseline;
@@ -28,12 +28,12 @@ header > button {
 #header__navbar ul {
     display: flex;
     column-gap: 25px;
-    list-style: none; /*Para quitar el punto*/
+    list-style: none; 
 }
 
 #header__navbar a:hover {
     color: red;
-} /*Cuando el ratón está encima*/
+} 
 
 #header__navbar ul:hover a.active:not(:hover) {
     color: #202020;
@@ -41,7 +41,7 @@ header > button {
 
 
 
-/*Todo el bloque de abajo ordenarlo en el código*/
+
 
 #navbar__extra:hover #extra__sections{
     display:flex;
@@ -55,17 +55,17 @@ header > button {
 }
 #header__navbar a.active {
     color: red;
-} /*Lo pone js*/
+} 
 
 #header__navbar #extra__sections {
     position: absolute;
     left: 0;
     top: calc(100% + 15px);
     flex-direction: column;
-    white-space: nowrap; /*Para que se vea bien*/
+    white-space: nowrap; 
     padding: 15px;
     box-shadow: 0px 5px 5px 5px #0002;
-    display: none;/*display: flex pa que se vea para ajustarlo*/
+    display: none;
 }
 
 #navbar__extra {
@@ -76,7 +76,7 @@ header > button {
     content: "";
     position: absolute;
     display:block;
-    /*background: red;*/
+    
     height: 15px;
     width: 100%;
     top: -15px;
@@ -94,7 +94,7 @@ header > button {
 }
 
 #header__button {
-    color: #ff556e; /*Revisar esto*/
+    color: #ff556e; 
     text-transform: uppercase;
     padding: 10px 20px;
     border: 2px solid  #ff556e;
@@ -105,13 +105,13 @@ header > button {
 
 @media (max-width: 800px) {
     header {
-        top: 0; /*Que no se meta para arriba*/
+        top: 0; 
     }
     #header__sections {
-        display: none; /*para que no sea hasta que se pinche en el menú*/
-        flex-direction: column-reverse; /*botón arriba*/
+        display: none; 
+        flex-direction: column-reverse; 
         row-gap: 5px;
-        position: absolute; /*ya no ocupa espacio, lo sacamos del flow*/
+        position: absolute; 
         right: 2px;
         top: 2px;
         background: #f7fafd;
@@ -124,7 +124,7 @@ header > button {
         row-gap: 5px;
     }
     #header__sections img {
-        display: none; /*ocultar triángulo*/
+        display: none; 
     }
 
     #header__sections #navbar__extra ul {
@@ -141,7 +141,7 @@ header > button {
     }
 
     header > button {
-        display: block; /*hay que ponerlo porque estaba en none*/
+        display: block; 
         position: fixed;
         right: 5px;
         top: 5px;
@@ -158,6 +158,6 @@ header > button {
         display: block;
     }
     header:focus-within #header__sections {
-        display: flex; /*si hay foco en el header (en el botón)*/
+        display: flex; 
     }
 }

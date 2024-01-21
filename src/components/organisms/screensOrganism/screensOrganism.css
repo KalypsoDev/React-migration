@@ -72,7 +72,7 @@
 }
 
 
-/*Revisar*/
+
 .card--grey {
     background-color: #e8eff6;
 }
@@ -183,9 +183,3 @@
     text-align: center;
 }
 
-/* Usar para responsive?
-#header__mobile img {
-    max-width: 90%;
-    margin: auto;
-}
-*/

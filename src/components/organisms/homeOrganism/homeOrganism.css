@@ -1,5 +1,5 @@
 #home {
-    margin-top: 55px; /*Revisar esto para tener en cuenta el margin del header*/
+    margin-top: 55px; 
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
     width: 25px;
 }
 
-#home__description { /*¿Será necesario tanto flex??*/
+#home__description { 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,15 +37,6 @@
     margin-top: 35px;
     margin-bottom: 90px;
 }
-
-/*Medidas responsive mobile
-
-#home__description {    
-    margin: 0 110px 90px 150px;
-}
-
-*/
-
 
 h1 {
     font-size: 50px;
@@ -70,19 +61,12 @@ h1 {
     margin-right: 5px;
 }
 
-/*Revisar si lo voy a usar??
-#medium__icons--float
-
-Usar clases en vez de ids si se repiten*/
-
 #medium__icons--float {
     position: relative;
     overflow: visible;
     z-index: -1;
 }
 
-
-/*Revisar*/
 #medium__circle--white--left {
     height: 400px;
     position: absolute; 
@@ -112,12 +96,7 @@ Usar clases en vez de ids si se repiten*/
     margin-bottom: 80px;
 }
 
-/* Usar para responsive?
-#header__mobile img {
-    max-width: 90%;
-    margin: auto;
-}
-*/
+
 #header__mobile img {
     max-width: 60%;
     margin: auto;
