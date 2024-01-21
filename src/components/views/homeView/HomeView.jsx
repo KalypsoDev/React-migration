@@ -1,12 +1,12 @@
 import { useInView } from 'react-intersection-observer';
 import { useState } from "react";
 
-import HeaderOrganism from "../organisms/header/HeaderOrganism";
-import HomeOrganism from "../organisms/home/HomeOrganism";
-import DescriptionOrganism from "../organisms/description/DescriptionOrganism";
-import FeaturesOrganism from "../organisms/features/FeaturesOrganism";
-import ScreensOrganism from "../organisms/screens/ScreensOrganism";
-import FooterOrganism from "../organisms/footer/FooterOrganism";
+import HeaderOrganism from "../../organisms/headerOrganism/HeaderOrganism";
+import HomeOrganism from "../../organisms/homeOrganism/HomeOrganism";
+import DescriptionOrganism from "../../organisms/descriptionOrganism/DescriptionOrganism";
+import FeaturesOrganism from "../../organisms/featuresOrganism/FeaturesOrganism";
+import ScreensOrganism from "../../organisms/screensOrganism/ScreensOrganism";
+import FooterOrganism from "../../organisms/footerOrganism/FooterOrganism";
 
 export function HomeView() {
     const [currentSection, setCurrentSection] = useState();
