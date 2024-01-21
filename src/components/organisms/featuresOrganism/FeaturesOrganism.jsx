@@ -1,3 +1,5 @@
+import "./featuresOrganism.css"
+
 export default function FeaturesOrganism() {
   return (
     <section id="features">
