@@ -1,6 +1,8 @@
 import { useInView } from 'react-intersection-observer';
 import { useState } from "react";
 
+import "./homeView.css";
+
 import HeaderOrganism from "../../organisms/headerOrganism/HeaderOrganism";
 import HomeOrganism from "../../organisms/homeOrganism/HomeOrganism";
 import DescriptionOrganism from "../../organisms/descriptionOrganism/DescriptionOrganism";

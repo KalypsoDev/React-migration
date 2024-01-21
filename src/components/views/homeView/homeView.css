@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+    padding: 0;
+}
+
+html {
+    background-color: #f7fafd;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.text--full {
+    max-width: 999px; /*Max para que no haga scroll horizontal*/
+    margin: 20px auto 30px;
+    color: #8b8c8c;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.button--red {
+    color: #ffffff; /*Revisar esto*/
+    background-color: #ff556e;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 2px solid  #ff556e;
+    border-radius: 30px;
+    font-weight: bold;
+}
