@@ -14,6 +14,11 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 section {
     min-height: 100vh;
 }
@@ -22,7 +27,6 @@ section {
     max-width: 999px; /*Max para que no haga scroll horizontal*/
     margin: 20px auto 30px;
     color: #8b8c8c;
-
 }
 
 button {
