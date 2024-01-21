@@ -2,16 +2,16 @@ import { TestimonialsMolecule } from "../../molecules/testimonialsMolecule/Testi
 import { StatisticsCardMolecule } from "../../molecules/statisticsCardMolecule/StatisticsCardMolecule";
 import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
 
-import "./screensOrganism.css"
+import "./screensOrganism.css";
 
 export default function ScreensOrganism() {
   return (
     <section id="screens">
       <div id="screens__testimonials">
-        <TestimonialsMolecule/>
+        <TestimonialsMolecule />
       </div>
       <div id="screens__statistics">
-        <StatisticsCardMolecule/>
+        <StatisticsCardMolecule />
       </div>
       <div id="screens__">
         <div id="low__icons--float">

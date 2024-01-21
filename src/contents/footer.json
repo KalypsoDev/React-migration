@@ -2,52 +2,52 @@
   "featuresLinks": [
     {
       "title": "Contact Info",
-      "items":[
+      "items": [
         {
           "icon": "fa-solid fa-location-dot",
           "href": "https://example.com",
           "text": "22 Innovation Street, CA, US"
-              },
-              {
-                "icon": "fa-solid fa-envelope",
-                "href": "mailto:office@syncmobile.com",
-                "text": "office@syncmobile.com"
-              },
-              {
-                "icon": "fa-solid fa-phone",
-                "href": "tel:+4437694523",
-                "text": "+44 376 945 23"
-              }
-            ]
-      },
-      {
-          "title": "Value Links",
-          "items": [
-            {
-              "text": "Terms & Conditions"
-            },
-            {
-              "text": "Privacy Policy"
-            },
-            {
-              "text": "Article Details"
-            }
-          ]
-      },
-      {
-          "title": "Other Apps",
-          "items": [
-            {
-              "text": "Scientific Calculator"
-            },
-            {
-              "text": "Advanced Timer"
-            },
-            {
-              "text": "Music Store"
-            }       
-          ]
-      }
+        },
+        {
+          "icon": "fa-solid fa-envelope",
+          "href": "mailto:office@syncmobile.com",
+          "text": "office@syncmobile.com"
+        },
+        {
+          "icon": "fa-solid fa-phone",
+          "href": "tel:+4437694523",
+          "text": "+44 376 945 23"
+        }
+      ]
+    },
+    {
+      "title": "Value Links",
+      "items": [
+        {
+          "text": "Terms & Conditions"
+        },
+        {
+          "text": "Privacy Policy"
+        },
+        {
+          "text": "Article Details"
+        }
+      ]
+    },
+    {
+      "title": "Other Apps",
+      "items": [
+        {
+          "text": "Scientific Calculator"
+        },
+        {
+          "text": "Advanced Timer"
+        },
+        {
+          "text": "Music Store"
+        }
+      ]
+    }
   ],
   "socialMediaLinks": [
     {

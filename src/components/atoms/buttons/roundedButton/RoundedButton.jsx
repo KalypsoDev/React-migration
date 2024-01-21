@@ -1,10 +1,14 @@
-export function RoundedButton({href, classButton, idButton, icon, textButton}) {
+export function RoundedButton({
+  href,
+  classButton,
+  idButton,
+  icon,
+  textButton,
+}) {
   return (
     <a href={href}>
       <button id={idButton} className={classButton}>
-        {
-            icon !== undefined && <i className={icon}></i>
-        }
+        {icon !== undefined && <i className={icon}></i>}
         {textButton}
       </button>
     </a>

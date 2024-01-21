@@ -1,41 +1,41 @@
 [
-    {
-        "idIcon": "icon__users",
-        "icon": "fa-solid fa-users fa-beat fa-2xl",
-        "titleIcon": "Identify Goals",
-        "value": 231,
-        "label": "Happy Users"
-    },
+  {
+    "idIcon": "icon__users",
+    "icon": "fa-solid fa-users fa-beat fa-2xl",
+    "titleIcon": "Identify Goals",
+    "value": 231,
+    "label": "Happy Users"
+  },
 
-    {
-        "idIcon": "icon__code",
-        "icon": "fa-solid fa-code fa-beat fa-2xl",
-        "titleIcon": "Situation Analysis",
-        "value": 385,
-        "label": "Issues Solved"
-    },
+  {
+    "idIcon": "icon__code",
+    "icon": "fa-solid fa-code fa-beat fa-2xl",
+    "titleIcon": "Situation Analysis",
+    "value": 385,
+    "label": "Issues Solved"
+  },
 
-    {
-        "idIcon": "icon__gear",
-        "icon": "fa-solid fa-gear fa-beat fa-2xl",
-        "titleIcon": "Tasks Settings",
-        "value": 159,
-        "label": "Good Reviews"
-    },
+  {
+    "idIcon": "icon__gear",
+    "icon": "fa-solid fa-gear fa-beat fa-2xl",
+    "titleIcon": "Tasks Settings",
+    "value": 159,
+    "label": "Good Reviews"
+  },
 
-    {
-        "idIcon": "icon__comments",
-        "icon": "fa-solid fa-comments fa-beat fa-2xl",
-        "titleIcon": "Social Interaction",
-        "value": 127,
-        "label": "Case Studies"
-    },
+  {
+    "idIcon": "icon__comments",
+    "icon": "fa-solid fa-comments fa-beat fa-2xl",
+    "titleIcon": "Social Interaction",
+    "value": 127,
+    "label": "Case Studies"
+  },
 
-    {
-        "idIcon": "icon__rocket",
-        "icon": "fa-solid fa-rocket fa-beat fa-2xl",
-        "titleIcon": "Get Things Done",
-        "value": 211,
-        "label": "Orders Received"
-    }
+  {
+    "idIcon": "icon__rocket",
+    "icon": "fa-solid fa-rocket fa-beat fa-2xl",
+    "titleIcon": "Get Things Done",
+    "value": 211,
+    "label": "Orders Received"
+  }
 ]

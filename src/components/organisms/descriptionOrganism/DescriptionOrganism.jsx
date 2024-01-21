@@ -1,7 +1,7 @@
 import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
 import { SquaredButton } from "../../atoms/buttons/squaredButton/SquaredButton";
 
-import "./descriptionOrganism.css"
+import "./descriptionOrganism.css";
 
 export default function DescriptionOrganism() {
   return (
@@ -41,10 +41,7 @@ export default function DescriptionOrganism() {
                   id="schedule__clock"
                   textButton="Schedule"
                 />
-                <SquaredButton
-                  icon="fa fa-list-ul"
-                  textButton="Tracking"
-                />
+                <SquaredButton icon="fa fa-list-ul" textButton="Tracking" />
               </div>
               <div id="schedule__column2">
                 <SquaredButton

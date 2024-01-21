@@ -1,7 +1,7 @@
 import { HomeCardMolecule } from "../../molecules/homeCardMolecule/HomeCardMolecule";
 import { RoundedButton } from "../../atoms/buttons/roundedButton/RoundedButton";
 
-import "./homeOrganism.css"
+import "./homeOrganism.css";
 
 export default function HomeOrganism() {
   return (
@@ -62,7 +62,7 @@ export default function HomeOrganism() {
       <div id="header__mobile">
         <img src="/assets/img/header-iphone.png" alt="Iphone with Sync" />
       </div>
-      <HomeCardMolecule/>
+      <HomeCardMolecule />
     </section>
   );
 }

@@ -1,4 +1,4 @@
-import "./featuresOrganism.css"
+import "./featuresOrganism.css";
 
 export default function FeaturesOrganism() {
   return (

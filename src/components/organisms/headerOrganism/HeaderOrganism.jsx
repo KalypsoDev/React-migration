@@ -1,6 +1,6 @@
 import { NavbarMolecule } from "../../molecules/NavbarMolecule/NavbarMolecule";
 
-import "./headerOrganism.css"
+import "./headerOrganism.css";
 
 export default function HeaderOrganism({ currentSection }) {
   return (
