@@ -1,4 +1,4 @@
-# Personal project: React migration
+# Personal project: React migration of Sync website
 
 ## Main goal
 
@@ -11,7 +11,7 @@
 
 ## Deployment
 
-🚀 This project has been deployed on Vercel: [sync_migration](https://sync-migration.vercel.app/)
+🚀 This project has been deployed on Vercel: [React migration of Sync website](https://sync-migration.vercel.app/)
 
 ## Installation Guide
 
@@ -20,7 +20,7 @@
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/KalypsoDev/Sync-migration
+   git clone https://github.com/KalypsoDev/React-migration
     ```
 
 2. Run these commands:
