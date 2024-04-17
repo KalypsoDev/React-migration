@@ -1,8 +1,8 @@
-# Personal project: Sync migration
+# Personal project: React migration
 
 ## Main goal
 
-🎯 Migrate all the html and css files from the previous replica project ([repo](https://github.com/Kalypso89/replica_web) and [deployed website](https://replica-website-sync.pages.dev/)) to another website built with React framework.
+🎯 Migrate all the html and css files from the previous replica project ([repo](https://github.com/KalypsoDev/replica_web) and [deployed website](https://replica-website-sync.pages.dev/)) to another website built with React framework.
 
 ## Stack
 
@@ -20,7 +20,7 @@
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/Kalypso89/Sync-migration
+   git clone https://github.com/KalypsoDev/Sync-migration
     ```
 
 2. Run these commands:
