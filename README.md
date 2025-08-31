@@ -2,7 +2,7 @@
 
 ## Main goal
 
-🎯 Migrate all the html and css files from the previous replica project ([repo](https://github.com/KalypsoDev/replica_web) and [deployed website](https://replica-website-sync.pages.dev/)) to another website built with React framework.
+🎯 Migrate all the html, css and js files from the previous replica project ([repo](https://github.com/KalypsoDev/replica_web) and [deployed website](https://replica-website-sync.pages.dev/)) to another website built with React framework.
 
 ## Stack
 
