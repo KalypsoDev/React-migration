@@ -11,7 +11,7 @@
 
 ## Deployment
 
-🚀 This project has been deployed on Vercel: [React migration of Sync website](https://sync-migration.vercel.app/)
+🚀 This project has been deployed on Vercel: [React migration of Sync website](https://react-migration.vercel.app/)
 
 ## Installation Guide
 
